@@ -26,10 +26,10 @@ class KetigaActivity : AppCompatActivity() {
         view_tujuan.setText(tujuan)
         view_jam.setText(tujuan)
         view_kelas.setText(kelas)
-        view_tgl.setText(kelas)
+        view_tgl.setText(tanggal)
 
+        var harga :Int? = 10000
 
-        var harga :Int? = null
         if (asal.equals("Jakarta")){
             if (tujuan.equals("Bali")){
                 if (kelas.equals("Ekonomi")){
