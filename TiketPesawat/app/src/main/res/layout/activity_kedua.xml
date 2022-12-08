@@ -6,62 +6,50 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:padding="40dp"
-    tools:context=".MainActivity">
+    tools:context=".KeduaActivity">
 
     <TextView
-        android:text="Kota Asal"
+        android:text="Kelas Tiket"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
 
     <Spinner
-        android:id="@+id/drop_kota_asal"
+        android:id="@+id/drop_kelas_tiket"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="10dp"
         android:background="@color/white"
         android:dropDownSelector="@android:drawable/btn_dropdown"
-        android:entries="@array/kota_array"
+        android:entries="@array/kelas_tiket_array"
         android:padding="8dp"
         android:backgroundTintMode="add"
         android:backgroundTint="@color/black"
         android:hapticFeedbackEnabled="true"
         android:clickable="true"
-        android:prompt="@string/drop_kota" />
+        android:prompt="@string/drop_tiket" />
 
 
     <TextView
-        android:text="Kota Tujuan"
+        android:text="Jam Keberangkatan"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
 
     <Spinner
-        android:id="@+id/drop_kota_tujuan"
+        android:id="@+id/drop_jam"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="10dp"
         android:background="@color/white"
         android:dropDownSelector="@android:drawable/btn_dropdown"
-        android:entries="@array/kota_array"
+        android:entries="@array/jam_array"
         android:padding="8dp"
         android:clickable="true"
-        android:prompt="@string/drop_kota" />
+        android:prompt="@string/drop_tiket" />
 
-    <TextView
-        android:text="Tanggal Berangkat"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
-
-    <DatePicker
-        android:id="@+id/date_berangkat"
-        android:layout_width="226dp"
-        android:layout_height="174dp"
-        android:calendarViewShown="false"
-        android:datePickerMode="spinner"
-        android:padding="-100dp" />
 
     <Button
-        android:id="@+id/btn_next"
-        android:text="Next"
+        android:id="@+id/kumpul"
+        android:text="Submit"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
 

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="40dp"
+    tools:context=".KetigaActivity">
+
+    <TextView
+        android:text="Kota Asal"
+        android:textSize="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/view_asal"
+        android:text=""
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:layout_width="wrap_content"
+        android:layout_marginBottom="50dp"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:text="Kota Tujuan"
+        android:textSize="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/view_tujuan"
+        android:text=""
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:layout_width="wrap_content"
+        android:layout_marginBottom="50dp"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:text="Tanggal Berangkat"
+        android:textSize="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/view_tgl"
+        android:text=""
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:layout_width="wrap_content"
+        android:layout_marginBottom="50dp"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:text="Kelas"
+        android:textSize="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/view_kelas"
+        android:text=""
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:layout_width="wrap_content"
+        android:layout_marginBottom="50dp"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:text="Jam Keberangkatan"
+        android:textSize="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/view_jam"
+        android:text=""
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:layout_width="wrap_content"
+        android:layout_marginBottom="50dp"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:text="Harga Tiket"
+        android:textSize="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/view_harga"
+        android:text=""
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:layout_width="wrap_content"
+        android:layout_marginBottom="50dp"
+        android:layout_height="wrap_content"/>
+</LinearLayout>

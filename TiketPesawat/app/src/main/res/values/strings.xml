@@ -1,3 +1,23 @@
 <resources>
-    <string name="app_name">TiketPesawat</string>
+    <string name="app_name">TiketPesawat 71200626</string>
+
+    <string name="drop_kota">Kota</string>
+    <string-array name="kota_array">
+        <item>Yogyakarta</item>
+        <item>Jakarta</item>
+        <item>Bali</item>
+    </string-array>
+
+    <string name="drop_tiket">Kelas Tiket</string>
+    <string-array name="kelas_tiket_array">
+        <item>Ekonomi</item>
+        <item>Bisnis</item>
+    </string-array>
+
+    <string name="jam">Kelas Tiket</string>
+    <string-array name="jam_array">
+        <item>10.00</item>
+        <item>16.00</item>
+        <item>20.00</item>
+    </string-array>
 </resources>
